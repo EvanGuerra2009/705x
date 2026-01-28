@@ -13,6 +13,10 @@ public class prog705x {
 
         Scanner b = new Scanner(new File ("prg.705x.txt"));
 
+
+        for(int lcv=0;lcv>10 ;lcv++){
+            System.out.print(lcv);
+        }
         while (r.hasNextLine()) {
             String line = r.nextLine();
             String[] parts = line.split(" ");
